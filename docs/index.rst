@@ -7,6 +7,8 @@ Linux Mint User Guide
 
 This is the Linux Mint User Guide.
 
+This Guide is not final. Content as being added slowly but surely :)
+
 .. toctree::
    :maxdepth: 1
    :caption: Software

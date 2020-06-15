@@ -8,6 +8,7 @@ Google also develops a proprietary browser based on Chromium called Chrome. This
 
 This page lists the different ways to install Chromium in Linux Mint.
 
+.. _extensions: http://www.sphinx-doc.org/en/master/ext/builtins.html#builtin-sphinx-extensions
 
 Default Linux Mint repositories
 ===============================
@@ -30,7 +31,7 @@ Saikrishna Arcot's Chromium BETA PPA
 
 This `PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-beta>`_ contains the latest Chromium Beta builds, with hardware video decoding enabled (hidden behind a flag), and support for Widevine (needed for viewing many DRM-protected videos) enabled.
 
-.. code-block:: bash
+.. prompt:: bash $
 
 	apt remove --purge chromium-browser
 	sudo add-apt-repository ppa:saiarcot895/chromium-beta
