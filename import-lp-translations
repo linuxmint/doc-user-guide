@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+import os
+
+os.system("mkdir -p po")
+os.system("rm -rf po/*")
+
+pages = []
+for page in os.listdir("docs"):
+    if page.endswith(".rst"):
+        pages.append(page.replace(".rst", ""))
+
+for po in sorted(os.listdir("launchpad-translations")):
+    if po.endswith(".po"):
+        locale = po.split("-")[-1].replace(".po", "")
+        os.system("mkdir -p po/%s/LC_MESSAGES" % locale)
+        for page in sorted(pages):
+            os.system("cp launchpad-translations/%s po/%s/LC_MESSAGES/%s.po" % (po, locale, page))

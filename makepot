@@ -1,0 +1,4 @@
+#!/bin/bash
+cd docs
+make gettext
+msgcat _build/gettext/*.pot > ../linuxmint-user-guide.pot
