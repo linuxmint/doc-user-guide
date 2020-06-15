@@ -26,9 +26,13 @@ Unofficial repositories and PPAs
 
 Unofficial repositories and PPAs provide easy access to packages and updates. As always, with unofficial sources, you need to trust the maintainer when it comes to software stability, security and frequency of updates.
 
-.. warning::
+.. hint::
 
 	Create a Timeshift system snapshot before adding any unofficial software sources or installing software from third parties. This will allow you to revert any potential mistakes or undesired consequences.
+
+.. warning::
+
+	Do not use PPAs or third party sources unless you trust its maintainer.
 
 Saikrishna Arcot's Chromium BETA PPA
 ------------------------------------
@@ -136,9 +140,9 @@ Google Chrome
 
 Google makes it very easy to install Chrome. Visit the `Google Chrome Website <https://www.google.com/chrome/>`_, download and install the provided package and it will automatically add the Google repositories to your operating system.
 
-.. note::
+.. warning::
 
-	Google Chrome is proprietary software. It cannot be audited or modified.
+	Only use this browser if you trust `Google <https://google.com>`_ with your privacy and data. Chrome is proprietary software. It cannot be audited or modified.
 
 Firefox
 -------
@@ -162,6 +166,6 @@ Chromium is available from the Snap Store.
 	apt install snapd
 	sudo snap install chromium
 
-.. note::
+.. warning::
 
-	Software from the Snap Store provides the same limitations as proprietary software. It cannot be audited or modified. This store is disabled in Linux Mint 20.x. For more information read :ref:`Snap Store <snapstore>`.
+	Only use this store if you trust both `Canonical <https://canonical.com>`_ and the maintainers of the snaps you install. Similar to proprietary software, software delivered by and code run by the Snap Store cannot be audited or modified. This store is disabled in Linux Mint 20.x. For more information read :ref:`Snap Store <snapstore>`.
