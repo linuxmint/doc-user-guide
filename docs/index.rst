@@ -9,7 +9,7 @@ This is the Linux Mint User Guide.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Tutorials
+   :caption: Software
 
    snap
    chromium
