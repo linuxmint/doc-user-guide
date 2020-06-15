@@ -11,6 +11,6 @@ This is the Linux Mint User Guide.
    :maxdepth: 1
    :caption: Tutorials
 
-   snapd
+   snap
    chromium
 
