@@ -26,12 +26,16 @@ Unofficial repositories and PPAs
 
 Unofficial repositories and PPAs provide easy access to packages and updates. As always, with unofficial sources, you need to trust the maintainer when it comes to software stability, security and frequency of updates.
 
+.. warning::
+
+	Create a Timeshift system snapshot before adding any unofficial software sources or installing software from third parties. This will allow you to revert any potential mistakes or undesired consequences.
+
 Saikrishna Arcot's Chromium BETA PPA
 ------------------------------------
 
 This `PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-beta>`_ contains the latest Chromium Beta builds, with hardware video decoding enabled (hidden behind a flag), and support for Widevine (needed for viewing many DRM-protected videos) enabled.
 
-.. prompt:: bash $
+.. code-block:: bash
 
 	apt remove --purge chromium-browser
 	sudo add-apt-repository ppa:saiarcot895/chromium-beta
@@ -93,16 +97,6 @@ And the following to `/etc/apt/preferences.d/debian-chromium.pref`
 	Pin: origin "security.debian.org"
 	Pin-Priority: 1
 
-	# Pattern includes 'chromium'
-	Package: chromium*
-	Pin: origin "deb.debian.org"
-	Pin-Priority: 700
-
-	# Pattern includes 'chromium'
-	Package: chromium*
-	Pin: origin "security.debian.org"
-	Pin-Priority: 700
-
 	# Exclude the game chromium-bsu
 	Package: chromium-bsu*
 	Pin: origin "deb.debian.org"
@@ -112,6 +106,16 @@ And the following to `/etc/apt/preferences.d/debian-chromium.pref`
 	Package: chromium-bsu*
 	Pin: origin "security.debian.org"
 	Pin-Priority: 1
+
+	# Pattern includes 'chromium'
+	Package: chromium*
+	Pin: origin "deb.debian.org"
+	Pin-Priority: 700
+
+	# Pattern includes 'chromium'
+	Package: chromium*
+	Pin: origin "security.debian.org"
+	Pin-Priority: 700
 
 Then run the following commands:
 
@@ -131,6 +135,10 @@ Google Chrome
 -------------
 
 Google makes it very easy to install Chrome. Visit the `Google Chrome Website <https://www.google.com/chrome/>`_, download and install the provided package and it will automatically add the Google repositories to your operating system.
+
+.. note::
+
+	Google Chrome is proprietary software. It cannot be audited or modified.
 
 Firefox
 -------
@@ -156,4 +164,4 @@ Chromium is available from the Snap Store.
 
 .. note::
 
-	The Snap Store is disabled in Linux Mint 20.x. For more information read :ref:`Snap Store <snapstore>`.
+	Software from the Snap Store provides the same limitations as proprietary software. It cannot be audited or modified. This store is disabled in Linux Mint 20.x. For more information read :ref:`Snap Store <snapstore>`.
