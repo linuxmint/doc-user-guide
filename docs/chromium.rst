@@ -4,7 +4,7 @@ Chromium
 
 Chromium is an open-source web browser developed by Google.
 
-Google also develops a proprietary browser based on Chromium called Chrome. This is the browser Google promotes and provides repositories for. There are no Google repositories for Chromium.
+Google also develops a proprietary browser based on Chromium called Chrome. This is the browser Google promotes and provides repositories for. There are no Google repositories for Chrome.
 
 This page lists the different ways to install Chromium in Linux Mint.
 
