@@ -16,3 +16,9 @@ This Guide is not final. Content is being added slowly but surely :)
    snap
    chromium
 
+.. toctree::
+   :maxdepth: 1
+   :caption: System
+
+   grub
+
