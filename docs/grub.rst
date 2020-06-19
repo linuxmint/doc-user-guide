@@ -25,3 +25,26 @@ Then type the following commands in a terminal:
 .. code-block:: bash
 
     sudo update-grub
+
+How to theme the Grub menu
+==========================
+
+For compatibility reasons, some releases sometimes ship without a Grub theme:
+
+.. image:: images/grub.png
+
+You can make it look like this:
+
+.. image:: images/grub2-theme-mint.png
+
+To do so, open a terminal and type:
+
+.. code-block:: bash
+
+    apt reinstall -o Dpkg::Options::="--force-confmiss" grub2-theme-mint
+
+Or if you have a HiDPI screen, type this instead:
+
+.. code-block:: bash
+
+    apt reinstall -o Dpkg::Options::="--force-confmiss" apt install grub2-theme-mint-2k
