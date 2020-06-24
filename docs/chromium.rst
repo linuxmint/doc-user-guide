@@ -39,6 +39,17 @@ Saikrishna Arcot's Chromium BETA PPA
 
 This `PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-beta>`_ contains the latest Chromium Beta builds, with hardware video decoding enabled (hidden behind a flag), and support for Widevine (needed for viewing many DRM-protected videos) enabled.
 
+As root, add the following to `/etc/apt/preferences.d/saiarcot895-chromium-beta.pref`
+
+.. code-block:: text
+
+	# Ensure packages from saiarcot895-chromium-beta PPA have priority
+	Package: *
+	Pin: release o=LP-PPA-saiarcot895-chromium-beta
+	Pin-Priority: 800
+
+Then in a terminal window run
+
 .. code-block:: bash
 
 	apt remove --purge chromium-browser
@@ -50,6 +61,17 @@ Saikrishna Arcot's Chromium DEV PPA
 -----------------------------------
 
 This `PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-dev>`_ contains the latest Chromium Dev builds, with hardware video decoding enabled (hidden behind a flag) and support for Widevine (needed for viewing paid videos on Netflix and Youtube) enabled.
+
+As root, add the following to `/etc/apt/preferences.d/saiarcot895-chromium-dev.pref`
+
+.. code-block:: text
+
+	# Ensure packages from saiarcot895-chromium-dev PPA have priority
+	Package: *
+	Pin: release o=LP-PPA-saiarcot895-chromium-dev
+	Pin-Priority: 800
+
+Then in a terminal window run
 
 .. code-block:: bash
 
