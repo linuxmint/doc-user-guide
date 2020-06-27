@@ -98,61 +98,48 @@ APT Pinning
 
 APT pinning consists in pointing to repositories which are not designed for Linux Mint 20 but with APT preferences which restrict the usage of these repositories to Chromium only and nothing else.
 
-Debian Buster
+Ubuntu Bionic
 -------------
 
-As root, add the following to `/etc/apt/sources.list.d/debian-chromium.list`
+As root, add the following to `/etc/apt/sources.list.d/bionic-chromium.list`
 
 .. code-block:: text
 
-	deb https://deb.debian.org/debian buster main
-	deb https://deb.debian.org/debian buster-updates main
-	deb http://security.debian.org/ buster/updates main
+	deb http://archive.ubuntu.com/ubuntu bionic universe
+	deb http://archive.ubuntu.com/ubuntu bionic-updates universe
+	deb http://security.ubuntu.com/ubuntu bionic-security universe
 
-And the following to `/etc/apt/preferences.d/debian-chromium.pref`
+And the following to `/etc/apt/preferences.d/bionic-chromium.pref`
 
 .. code-block:: text
 
-	# Don't install anything other than chromium from the Debian repos
+	# Don't install anything other than chromium from the Bionic repos
 	Package: *
-	Pin: origin "deb.debian.org"
-	Pin-Priority: 1
+	Pin: release n=bionic
+	Pin-Priority: -10
 
-	# Don't install anything other than chromium from the Debian repos
-	Package: *
-	Pin: origin "security.debian.org"
-	Pin-Priority: 1
+	# Pattern includes 'chromium-browser'
+	Package: chromium-browser*
+	Pin: release n=bionic
+	Pin-Priority: 800
 
-	# Exclude the game chromium-bsu
-	Package: chromium-bsu*
-	Pin: origin "deb.debian.org"
-	Pin-Priority: 1
+	# Pattern includes 'chromium-codecs' (for chromium-codecs)
+	Package: chromium-codecs*
+	Pin: release n=bionic
+	Pin-Priority: 800
 
-	# Exclude the game chromium-bsu
-	Package: chromium-bsu*
-	Pin: origin "security.debian.org"
-	Pin-Priority: 1
-
-	# Pattern includes 'chromium'
-	Package: chromium*
-	Pin: origin "deb.debian.org"
-	Pin-Priority: 700
-
-	# Pattern includes 'chromium'
-	Package: chromium*
-	Pin: origin "security.debian.org"
-	Pin-Priority: 700
+	# Package is 'chromium-chromedriver'
+	Package: chromium-chromedriver
+	Pin: release n=bionic
+	Pin-Priority: 800
 
 Then run the following commands:
 
 .. code-block:: bash
 
-	sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys DCC9EFBF77E11517
-	sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 648ACFD622F3D138
-	sudo apt-key adv --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 112695A0E562B32A
 	apt update
 	apt remove --purge chromium-browser
-	apt install chromium
+	apt install chromium-browser
 
 Alternatives to Chromium
 ========================
