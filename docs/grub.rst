@@ -41,10 +41,10 @@ To do so, open a terminal and type:
 
 .. code-block:: bash
 
-    apt reinstall -o Dpkg::Options::="--force-confmiss" grub2-theme-mint
+    apt install --reinstall -o Dpkg::Options::="--force-confmiss" grub2-theme-mint
 
 Or if you have a HiDPI screen, type this instead:
 
 .. code-block:: bash
 
-    apt reinstall -o Dpkg::Options::="--force-confmiss" apt install grub2-theme-mint-2k
+    apt install --reinstall -o Dpkg::Options::="--force-confmiss" grub2-theme-mint-2k
