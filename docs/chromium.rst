@@ -96,7 +96,7 @@ Ungoogled Chromium
 APT Pinning
 ===========
 
-APT pinning consists in pointing to repositories which are not designed for Linux Mint 20 but with APT preferences which restrict the usage of these repositories to Chromium only and nothing else.
+APT pinning consists in pointing to repositories which are not designed for Linux Mint 20 but with APT preferences which restrict the usage of these repositories to Chromium only and nothing else. This option will result in any other packages that are listed in the pinned repositories but not in the default repositories to be discoverable, but not installable, in Synaptic Package Manager and Software Manager 
 
 Ubuntu Bionic
 -------------
