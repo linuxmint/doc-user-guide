@@ -25,7 +25,7 @@ This is a store we can't audit, which contains software nobody can patch. If we 
 Backdoor via APT
 ----------------
 
-When Snap was introduced Canonical promised it would never replace APT. This promise was broken. Some APT packages in the repositories Ubuntu not only install snap as a dependency but also run snap commands as root without your knowledge or consent and connect your computer to the remote proprietary store operated by Canonical.
+When Snap was introduced Canonical promised it would never replace APT. This promise was broken. Some APT packages in the Ubuntu repositories not only install snap as a dependency but also run snap commands as root without your knowledge or consent and connect your computer to the remote proprietary store operated by Canonical.
 
 
 Disabled Snap Store in Linux Mint 20
