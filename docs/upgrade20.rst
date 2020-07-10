@@ -195,7 +195,9 @@ Don't forget to remove that file after the upgrade if you want Timeshift to work
 Computer freeze
 ---------------
 
-On some computers the upgrade can be quite intensive and it can temporarily freeze the desktop. This can last for up to 10 minutes at times. This is OK, be patient and give it time. If this becomes a problem, logout completely, drop to console with ``CTRL+ALT+F2`` and run :command:`mintupgrade upgrade` from there instead.
+On some computers the upgrade can be quite intensive and it can temporarily freeze the desktop. This can last for up to 10 minutes at times or even take hours on slow computers. This is OK, be patient and give it time.
+
+If this becomes a problem, logout completely, drop to console with ``CTRL+ALT+F2`` and run :command:`mintupgrade upgrade` from there instead.
 
 Broken boot
 -----------
