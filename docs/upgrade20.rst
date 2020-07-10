@@ -10,9 +10,9 @@ Requirements
 64-bit architecture
 -------------------
 
-Although both 32-bit and 64-bit versions of Linux Mint 19.3 are supported until April 2023, new releases of Linux Mint, including 20,  are only available in 64-bit.
+Although both 32-bit and 64-bit versions of Linux Mint 19.3 are supported until April 2023, new releases of Linux Mint, including 20, are only available in 64-bit.
 
-To upgrade to Linux Mint 20 you need to run the 64-bit version of Linux Mint 19.3.
+To upgrade to Linux Mint 20 you need to be running the 64-bit version of Linux Mint 19.3.
 
 To check which version you're running type:
 
@@ -55,7 +55,7 @@ To apply all updates:
 Create a system snapshot
 ------------------------
 
-If anything breaks or if anything goes wrong during the upgrade, you can go back in time and revert all changes by restoring your latest system snapshot. Whatever happens, you're covered. You'll be able to restore your operating to this current state, either from within Linux Mint, or by launching Timeshift from a live Mint session (live DVD or live USB).
+If anything breaks or if anything goes wrong during the upgrade, you can go back in time and revert all changes by restoring your latest system snapshot. Whatever happens, you're covered. You'll be able to restore your operating system to this current state, either from within Linux Mint, or by launching Timeshift from a live Mint session (live DVD or live USB).
 
 .. image:: images/upgrade20-timeshift.png
 
@@ -68,7 +68,7 @@ To create a system snapshot:
 Purge PPAs and 3rd party repositories
 -------------------------------------
 
-PPAs or 3rd party repositories can introduce issues during the upgrade if the versions of the packages they provide is higher than in Linux Mint 20. This can result in unmet dependencies, held packages or resolver issues.
+PPAs or 3rd party repositories can introduce issues during the upgrade if the versions of the packages they provide are higher than in Linux Mint 20. This can result in unmet dependencies, held packages or resolver issues.
 
 To purge 3rd party packages follow these steps:
 
