@@ -2,7 +2,7 @@
 How to upgrade to Linux Mint 20
 ###############################
 
-This page explains how to upgrade to Linux Mint 20.
+This page explains how to upgrade from Linux Mint 19.3 to Linux Mint 20.
 
 Requirements
 ============
