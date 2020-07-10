@@ -22,3 +22,8 @@ This Guide is not final. Content is being added slowly but surely :)
 
    grub
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Upgrade
+
+   upgrade20
