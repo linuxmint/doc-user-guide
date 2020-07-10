@@ -213,7 +213,7 @@ Timeshift is able to scan your drives from the live session and restore your sna
 Boot warnings
 -------------
 
-You can ignore boot warning relateds to `ACPI` or `initramfs unpacking`. They're cosmetic and do not affect the boot sequence.
+You can ignore boot warnings related to `ACPI` or `initramfs unpacking`. They're cosmetic and do not affect the boot sequence.
 
 Notes
 =====
