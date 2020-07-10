@@ -210,6 +210,11 @@ If this doesn't work, boot from the live Linux Mint iso again, and launch `Times
 
 Timeshift is able to scan your drives from the live session and restore your snapshot from there.
 
+Boot warnings
+-------------
+
+You can ignore boot warning relateds to `ACPI` or `initramfs unpacking`. They're cosmetic and do not affect the boot sequence.
+
 Notes
 =====
 
