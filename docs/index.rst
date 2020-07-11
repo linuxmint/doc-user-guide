@@ -26,4 +26,4 @@ This Guide is not final. Content is being added slowly but surely :)
    :maxdepth: 1
    :caption: Upgrade
 
-   upgrade20
+   upgrade-to-mint-20
