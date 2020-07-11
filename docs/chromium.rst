@@ -37,7 +37,7 @@ Unofficial repositories and PPAs provide easy access to packages and updates. As
 Saikrishna Arcot's Chromium BETA PPA
 ------------------------------------
 
-This `PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-beta>`_ contains the latest Chromium Beta builds, with hardware video decoding enabled (hidden behind a flag), and support for Widevine (needed for viewing many DRM-protected videos) enabled.
+This `BETA PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-beta>`_ contains the latest Chromium Beta builds, with hardware video decoding enabled (hidden behind a flag), and support for Widevine (needed for viewing many DRM-protected videos) enabled.
 
 As root, add the following to `/etc/apt/preferences.d/saiarcot895-chromium-beta.pref`
 
@@ -60,7 +60,7 @@ Then in a terminal window run
 Saikrishna Arcot's Chromium DEV PPA
 -----------------------------------
 
-This `PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-dev>`_ contains the latest Chromium Dev builds, with hardware video decoding enabled (hidden behind a flag) and support for Widevine (needed for viewing paid videos on Netflix and Youtube) enabled.
+This `Dev PPA <https://launchpad.net/~saiarcot895/+archive/ubuntu/chromium-dev>`_ contains the latest Chromium Dev builds, with hardware video decoding enabled (hidden behind a flag) and support for Widevine (needed for viewing paid videos on Netflix and Youtube) enabled.
 
 As root, add the following to `/etc/apt/preferences.d/saiarcot895-chromium-dev.pref`
 
