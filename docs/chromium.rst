@@ -101,7 +101,7 @@ APT pinning consists in pointing to repositories which are not designed for Linu
 Debian Buster
 -------------
 
-As root, add the following to `/etc/apt/sources.list.d/debian-chromium.list`
+As root, add the following to `/etc/apt/sources.list.d/z-debian-chromium.list`
 
 .. code-block:: text
 
@@ -109,29 +109,29 @@ As root, add the following to `/etc/apt/sources.list.d/debian-chromium.list`
 	deb https://deb.debian.org/debian buster-updates main
 	deb http://security.debian.org/ buster/updates main
 
-And the following to `/etc/apt/preferences.d/debian-chromium.pref`
+And the following to `/etc/apt/preferences.d/z-debian-chromium.pref`
 
 .. code-block:: text
 
 	# Don't install anything other than chromium from the Debian repos
 	Package: *
 	Pin: origin "deb.debian.org"
-	Pin-Priority: 1
+	Pin-Priority: -10
 
 	# Don't install anything other than chromium from the Debian repos
 	Package: *
 	Pin: origin "security.debian.org"
-	Pin-Priority: 1
+	Pin-Priority: -10
 
 	# Exclude the game chromium-bsu
 	Package: chromium-bsu*
 	Pin: origin "deb.debian.org"
-	Pin-Priority: 1
+	Pin-Priority: -10
 
 	# Exclude the game chromium-bsu
 	Package: chromium-bsu*
 	Pin: origin "security.debian.org"
-	Pin-Priority: 1
+	Pin-Priority: -10
 
 	# Pattern includes 'chromium'
 	Package: chromium*
@@ -142,6 +142,16 @@ And the following to `/etc/apt/preferences.d/debian-chromium.pref`
 	Package: chromium*
 	Pin: origin "security.debian.org"
 	Pin-Priority: 700
+
+	# Chromium dependencies only in buster
+	Package: /libevent-2.1-6/ /libicu63/ /libjpeg62-turbo/ /libvpx5/
+	Pin: origin "deb.debian.org"
+	Pin-Priority: 1
+
+	# Chromium dependencies only in buster
+	Package: /libevent-2.1-6/ /libicu63/ /libjpeg62-turbo/ /libvpx5/
+	Pin: origin "security.debian.org"
+	Pin-Priority: 1
 
 Then run the following commands:
 
