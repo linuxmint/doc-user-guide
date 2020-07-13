@@ -101,7 +101,7 @@ APT pinning consists in pointing to repositories which are not designed for Linu
 Debian Buster
 -------------
 
-As root, add the following to `/etc/apt/sources.list.d/z-debian-chromium.list`
+As root, add the following to `/etc/apt/sources.list.d/pinned-debian-chromium.list`
 
 .. code-block:: text
 
@@ -109,7 +109,7 @@ As root, add the following to `/etc/apt/sources.list.d/z-debian-chromium.list`
 	deb https://deb.debian.org/debian buster-updates main
 	deb http://security.debian.org/ buster/updates main
 
-And the following to `/etc/apt/preferences.d/z-debian-chromium.pref`
+And the following to `/etc/apt/preferences.d/pinned-debian-chromium.pref`
 
 .. code-block:: text
 
