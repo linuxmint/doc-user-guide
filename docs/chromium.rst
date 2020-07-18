@@ -167,6 +167,11 @@ Then run the following commands:
 Alternatives to Chromium
 ========================
 
+Vivaldi
+-------
+
+Vivaldi is a new browser that protects you from trackers, blocks unwanted ads and gives you full control with its native features. Install Vivaldi and surf efficiently. Visit the `Vivaldi Website <https://vivaldi.com/>`_, download and install the provided package and it will automatically add the Vivaldi repositories to your operating system.
+
 Google Chrome
 -------------
 
