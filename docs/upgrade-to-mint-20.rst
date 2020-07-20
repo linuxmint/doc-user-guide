@@ -188,7 +188,7 @@ If you're using another snapshot tool and would rather not use Timeshift, you ca
 
 .. code-block:: bash
 
-	sudo touch /etc/timeshift.json
+	echo "{}" | sudo tee /etc/timeshift.json
 
 Don't forget to remove that file after the upgrade if you want Timeshift to work properly.
 
