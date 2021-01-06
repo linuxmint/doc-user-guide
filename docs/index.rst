@@ -24,6 +24,13 @@ This Guide is not final. Content is being added slowly but surely :)
 
 .. toctree::
    :maxdepth: 1
+   :caption: Drivers
+
+   printers
+   edge
+
+.. toctree::
+   :maxdepth: 1
    :caption: Upgrade
 
    upgrade-to-mint-20
