@@ -38,6 +38,22 @@ This package provides the following utilities:
 
 Although you do not need `hplip-gui` to use your HP device, it can provide extra information (such as ink levels) and help troubleshooting.
 
+Installing the proprietary plug-in
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Some HP printers require proprietary software technologies to allow full access to printer features and performance. Unfortunately, these technologies cannot be open sourced, but to resolve this HP uses a binary plug-in for these printers.
+
+To see if your printer requires the HP plugin-in, check the list of devices at the `HP Developer Website <https://developers.hp.com/hp-linux-imaging-and-printing/binary_plugin.html>`_.
+
+To install the plugin-in, open a terminal and type:
+
+.. code-block:: bash
+
+	apt install python3-pyqt5
+	sudo hp-setup
+
+Then follow the instructions written on that website.
+
 Brands which provide .deb packages
 ----------------------------------
 
