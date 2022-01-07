@@ -60,9 +60,11 @@ The table below shows the upgrade paths between the various Linux Mint releases.
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
 | 19.3         | 20         + Complex          | https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-20.html |
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
-| 20           | 20.2       | Simple           | https://blog.linuxmint.com/?p=4111                                            |
+| 20           | 20.3       | Simple           | https://blog.linuxmint.com/?p=4216                                            |
 +--------------+            +                  |                                                                               |
 | 20.1         |            |                  |                                                                               |
++--------------+            +                  |                                                                               |
+| 20.2         |            |                  |                                                                               |
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
 
 .. note:: There are no other upgrade paths than the ones listed above. For instance, you cannot upgrade version 18 to version 19.3 directly, you first need to upgrade it to 18.3, then to 19, then to 19.3.
