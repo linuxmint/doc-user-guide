@@ -13,7 +13,7 @@ Build:
     :alt: Documentation Status
 
 
-To build locally install ``python-sphinx`` and run ``make html`` in the ``docs`` directory.
+To build locally install ``python3-sphinx`` and run ``make html`` in the ``docs`` directory.
 
 Resources:
 ----------
