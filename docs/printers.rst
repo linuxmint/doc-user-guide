@@ -1,27 +1,51 @@
+
 #####################
 Printers and Scanners
 #####################
 
-To add a printer open `Printers` from the application menu and click on the `Add` button.
+Driverless Printing and Scanning (IPP)
+======================================
+
+Since version 21, Linux Mint features driverless printing and scanning:
+
+- Printers and scanners are detected and added automatically.
+- Communication with the device is done via a standard protocol called `IPP`.
+- No drivers are needed.
+- Installed drivers are not used.
+
+This standard protocol works with many devices, so for most printers and scanners, there is nothing to do. Everything just works out of the box.
+
+To print a document open `File` -> `Print...` in your application.
 
 To scan a document open `Document Scanner` from the application menu.
 
-.. warning::
+Manufacturer Drivers
+====================
 
-	Linux Mint 20 shipped with a package called `ippusbxd`. This package prevents many printers from working correctly.
-	If this package is installed on your computer, remove it and reboot.
+If your device doesn't work well with `IPP` you can use drivers from your manufacturer instead.
 
-.. note::
+In this case you need to:
 
-	Network printers can be automatically added and reappear even if you remove them. If you do not like this behaviour, remove the `cups-browsed` package.
+- Disable `IPP`
+- Install your manufacturer's drivers
 
-Manufacturers
-=============
+Disabling IPP
+-------------
+
+IPP takes priority so as long as it's installed, drivers won't be used.
+
+To remove IPP support from your computer open a terminal and type:
+
+.. code-block:: bash
+
+	apt remove ipp-usb sane-airscan
 
 Hewlett-Packard (HP)
 --------------------
 
-The HP drivers are called `HPLIP`. They are open-source and they are installed by default in Linux Mint. As a result, most HP printers and scanners work out of the box and don't require you to install any additional drivers.
+The HP drivers are called `HPLIP`.
+
+They are open-source and they already are installed by default in Linux Mint.
 
 Installing hplip-gui
 ~~~~~~~~~~~~~~~~~~~~
@@ -97,15 +121,33 @@ Decompress it, give it permission to execute and run it in a terminal:
 
 Then follow the instructions provided by Brother.
 
-Driverless Printing and Scanning
-================================
+Troubleshooting
+===============
 
-A standard protocol called `IPP` was designed to communicate with printers and scanners over the network. Nowadays this protocol is supported by many devices.
+Adding IPP support
+------------------
 
-Driverless printing and scanning consists in using `IPP` locally, i.e. to be able to print and scan without the need for any drivers at all.
+In Linux Mint 20.x `IPP` isn't installed by default.
 
-ippusbxd
---------
+If you want to give it a try, remove your printer using the `Printers` configuration tool.
+
+Then install `ipp-usb` and `sane-aircan` from the repositories:
+
+.. code-block:: bash
+
+	apt install ipp-usb sane-airscan
+
+Finally reboot the computer.
+
+Disabling network printers detection
+------------------------------------
+
+Network printers are automatically added and reappear even if you remove them.
+
+If you do not like this behaviour, remove the `cups-browsed` package.
+
+Removing ippusbxd
+-----------------
 
 `ippusbxd` was an early implementation of `IPP` over USB. It didn't work well and caused many issues. It was installed by default in Linux Mint 20. If this package is installed on your computer, make sure to remove it.
 
@@ -115,40 +157,10 @@ ippusbxd
 
 Then reboot your computer.
 
-ipp-usb
--------
+Additional info
+---------------
 
-`ipp-usb <https://github.com/OpenPrinting/ipp-usb>`_ is a new implementation of `IPP` over USB. It works much better and recognizes many printers and scanners. If you are unable to make your device work using printing/scanning drivers, give `ipp-usb` a try.
+More information is available online on:
 
-First, remove your printer using the `Printers` configuration tool.
-
-Then install `ipp-usb` from the repositories:
-
-.. code-block:: bash
-
-	apt install ipp-usb
-
-Finally reboot the computer.
-
-.. note::
-
-	When ipp-usb is installed local printers are automatically added. They will reappear if you remove them.
-
-.. warning::
-
-	When ipp-usb is installed it takes over communication with all printing/scanning devices, i.e. printing/scanning drivers cannot work, they're inhibited.
-
-sane-airscan
-------------
-
-`sane-airscan <https://github.com/alexpevzner/sane-airscan>`_ provides support for eSCL (Apple AirScan, AirPrint) and Microsoft WSD (WS-Scan, Web Services for Devices).
-
-If you can't get your scanner to work give sane-airscan a try.
-
-Install it from the repositories:
-
-.. code-block:: bash
-
-	apt install sane-airscan
-
-And reboot the computer.
+- `ipp-usb <https://github.com/OpenPrinting/ipp-usb>`_
+- `sane-airscan <https://github.com/alexpevzner/sane-airscan>`_
