@@ -71,7 +71,7 @@ The table below shows the upgrade paths between the various Linux Mint releases.
 | 20.3         | 21         + Major            | https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-21.html |
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
 
-.. note:: There are no other upgrade paths than the ones listed above. For instance, you cannot upgrade version 18 to version 19.3 directly, you first need to upgrade it to 18.3, then to 19, then to 19.3.
+.. note:: There are no other upgrade paths than the ones listed above. For instance, you cannot upgrade version 19 to version 20.3 directly, you first need to upgrade it to 19.3, then to 20, then to 20.3.
 
 Types of upgrade
 ================
