@@ -35,3 +35,4 @@ This Guide is not final. Content is being added slowly but surely :)
 
    upgrade
    upgrade-to-mint-20
+   upgrade-to-mint-21
