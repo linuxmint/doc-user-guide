@@ -22,6 +22,7 @@ This Guide is not final. Content is being added slowly but surely :)
    :caption: System
 
    grub
+   bluetooth
 
 .. toctree::
    :maxdepth: 1
