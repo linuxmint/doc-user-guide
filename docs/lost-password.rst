@@ -71,4 +71,4 @@ If you can't remember your username type the following command, either in the ch
 
     ls /home
 
-This command lists the directory in /home which usually corresponds to the list of usernames on the OS.
+This command lists the directories in /home which usually corresponds to the list of usernames on the OS.
