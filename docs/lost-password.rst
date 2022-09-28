@@ -2,7 +2,12 @@
 Lost Password
 #############
 
-If you forgot your password there are two ways to reset it:
+.. warning::
+
+    If your disk is encrypted it is not possible to reset the password.
+    If your home directory is encrypted changing your login password won't help. Unless you made a backup of your encryption passphrase it is not possible to access the files.
+
+If you forgot your password, and neither your partition nor your home directory are encrypted, there are two ways to reset it:
 
 - Recovery mode
 - Chroot from live ISO
@@ -52,7 +57,18 @@ Open a terminal and type the following commands:
     mkdir hdd
     sudo mount /dev/sda5 hdd
     sudo chroot hdd
+    mount -o remount,rw /
     passwd joe
 
 Replace `/dev/sda5` with your Mint partition and `joe` with your username.
 
+Forgotten username
+==================
+
+If you can't remember your username type the following command, either in the chroot prompt or the recovery mode prompt:
+
+.. code-block:: bash
+
+    ls /home
+
+This command lists the directory in /home which usually corresponds to the list of usernames on the OS.
