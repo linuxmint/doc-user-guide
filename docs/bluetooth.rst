@@ -60,9 +60,26 @@ If you want to persistently disable Bluetooth you need to set `auto-power-on` to
 
     gsettings set org.blueman.plugins.powermanager auto-power-on false
 
+.. note::
+
+    The `auto-power-on` option was recently removed in Blueman's master branch. It's still present in Blueman 2.3.2 but it's likely to disappear in newer versions.
+
 Systemd-rfkill
 --------------
 
 Systemd provides a service which saves the state of your kill switches during shutdown and restores them on the next boot.
 
 This service is a core part of systemd and is installed in Linux Mint by default.
+
+.. note::
+
+    Blueman runs after systemd-rfkill, so if Blueman's `auto-power-on` setting is enabled it overrides systemd-rfkill.
+
+Bluez
+-----
+
+Bluez is the Bluetooth stack used by Blueman.
+
+Bluez has a setting called `AutoEnable` in the file `/etc/bluetooth/main.conf`.
+
+If you don't want Bluez to automatically enable Bluetooth during boot set this option to false.
