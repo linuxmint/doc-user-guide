@@ -131,7 +131,7 @@ In Linux Mint 20.x `IPP` isn't installed by default.
 
 If you want to give it a try, remove your printer using the `Printers` configuration tool.
 
-Then install `ipp-usb` and `sane-aircan` from the repositories:
+Then install `ipp-usb` and `sane-airscan` from the repositories:
 
 .. code-block:: bash
 
