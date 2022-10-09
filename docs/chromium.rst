@@ -13,7 +13,7 @@ Chromium can be installed from the official repositories.
 Linux Mint 18.x and 19.x
 ========================
 
-In Linux Mint 18.x and Linux Mint 19.x the packages is called `chromium-browser`:
+In Linux Mint 18.x and Linux Mint 19.x the package is called `chromium-browser`:
 
 .. code-block:: bash
 
