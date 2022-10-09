@@ -206,7 +206,7 @@ If the computer no longer boots, boot from the live Linux Mint 19.3 ISO.
 
 From the live session, launch `Boot Repair` and use it to fix the boot sequence.
 
-If this doesn't work, boot from the live Linux Mint iso again, and launch `Timeshift`.
+If this doesn't work, boot from the live Linux Mint ISO again, and launch `Timeshift`.
 
 Timeshift is able to scan your drives from the live session and restore your snapshot from there.
 
