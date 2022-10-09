@@ -10,7 +10,7 @@ Rfkill
 
 Bluetooth can be disabled by using a software kill switch.
 
-On some laptops, a hardware kill switch is also provided either via a special Function key or key combination or a dedicated physical button or mechanism.
+On some laptops, a hardware kill switch is also provided either via a special function key or key combination or a dedicated physical button or mechanism.
 
 Using the `rfkill` command, you can see the state of these switches.
 
