@@ -44,6 +44,9 @@ To disable Bluetooth right-click the tray icon and select `Turn Bluetooth Off`.
 
 To enable Bluetooth right-click the tray icon and select `Turn Bluetooth On`.
 
+To allow non-admin users on your system to disable or enable Bluetooth, they must be added to the ``netdev`` group.
+You can do this with ``sudo adduser <username> netdev``.
+
 The very first time you open Blueman it asks if Bluetooth should be enabled automatically.
 
 To check whether this feature is enabled open a terminal and type:
