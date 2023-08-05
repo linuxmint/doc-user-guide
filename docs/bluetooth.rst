@@ -63,7 +63,7 @@ If you want to disable Bluetooth at startup you need to set `auto-power-on` to `
 
 .. note::
 
-    The `auto-power-on` option was recently removed in Blueman's master branch. It's still present in Blueman 2.3.2 but it's likely to disappear in newer versions.
+    The `auto-power-on` option was recently removed in Blueman's master branch. It's still present in Blueman 2.3.5 but it's likely to disappear in newer versions.
 
 Systemd-rfkill
 --------------
