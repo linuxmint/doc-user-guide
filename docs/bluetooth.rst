@@ -54,7 +54,7 @@ To check whether this feature is enabled open a terminal and type:
 
 If `auto-power-on` is set to `true`, Blueman automatically unblocks Bluetooth at startup.
 
-If you want to persistently disable Bluetooth you need to set `auto-power-on` to `false`:
+If you want to disable Bluetooth at startup you need to set `auto-power-on` to `false`:
 
 .. code-block:: bash
 
