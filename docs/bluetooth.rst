@@ -52,7 +52,7 @@ To check whether this feature is enabled open a terminal and type:
 
     gsettings get org.blueman.plugins.powermanager auto-power-on
 
-It `auto-power-on` is set to `true`, Blueman automatically unblocks Bluetooth at startup.
+If `auto-power-on` is set to `true`, Blueman automatically unblocks Bluetooth at startup.
 
 If you want to persistently disable Bluetooth you need to set `auto-power-on` to `false`:
 
