@@ -44,6 +44,9 @@ To disable Bluetooth right-click the tray icon and select `Turn Bluetooth Off`.
 
 To enable Bluetooth right-click the tray icon and select `Turn Bluetooth On`.
 
+To allow non-admin users on your system to disable or enable Bluetooth, they must be added to the ``netdev`` group.
+You can do this with ``sudo adduser <username> netdev``.
+
 The very first time you open Blueman it asks if Bluetooth should be enabled automatically.
 
 To check whether this feature is enabled open a terminal and type:
@@ -52,9 +55,10 @@ To check whether this feature is enabled open a terminal and type:
 
     gsettings get org.blueman.plugins.powermanager auto-power-on
 
-It `auto-power-on` is set to `true`, Blueman automatically unblocks Bluetooth at startup.
+If `auto-power-on` is set to `true`, Blueman automatically unblocks Bluetooth at startup.
+Note that this setting is user-specific.
 
-If you want to persistently disable Bluetooth you need to set `auto-power-on` to `false`:
+If you want to disable Bluetooth at startup you need to set `auto-power-on` to `false`:
 
 .. code-block:: bash
 
@@ -62,7 +66,7 @@ If you want to persistently disable Bluetooth you need to set `auto-power-on` to
 
 .. note::
 
-    The `auto-power-on` option was recently removed in Blueman's master branch. It's still present in Blueman 2.3.2 but it's likely to disappear in newer versions.
+    The `auto-power-on` option was recently removed in Blueman's master branch. It's still present in Blueman 2.3.5 but it's likely to disappear in newer versions.
 
 Systemd-rfkill
 --------------
