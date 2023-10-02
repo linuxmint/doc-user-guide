@@ -11,12 +11,12 @@ In addition to its regular ISO images, Linux Mint sometimes provides an "edge" I
 Latest Edge ISO image
 ---------------------
 
-The latest Edge ISO image is `Linux Mint 20.3 Cinnamon Edge <https://www.linuxmint.com/edition.php?id=296>`_.
+The latest Edge ISO image is `Linux Mint 21.2 Cinnamon Edge <https://www.linuxmint.com/edition.php?id=310>`_.
 
 It features the following upgraded components:
 
 +--------------+-------+-----------+
-|              | 20.3  | 20.3 Edge |
+|              | 21.2  | 21.2 Edge |
 +==============+=======+===========+
-| Linux kernel | 5.4   | 5.13      |
+| Linux kernel | 5.15  | 6.2       |
 +--------------+-------+-----------+
