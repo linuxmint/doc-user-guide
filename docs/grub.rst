@@ -30,7 +30,7 @@ Then type the following command in a terminal:
 
     sudo update-grub
 
-If you are using Linux Mint 21.3 (or newer) and want to make the grub menu invisible, just delete these lines (which already exist) instead of adding them, then run the command above.
+If you are using Linux Mint 21.3 (or newer) and want to make the grub menu invisible, just delete these lines (which already exist) instead of adding them, then run the same command above.
 
 How to theme the Grub menu
 ==========================
