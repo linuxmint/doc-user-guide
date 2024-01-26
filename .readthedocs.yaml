@@ -5,6 +5,11 @@
 # Required
 version: 2
 
+# Build PDF & ePub
+formats:
+  - epub
+  - pdf
+
 # Set the version of Python and other tools you might need
 build:
   os: ubuntu-22.04
