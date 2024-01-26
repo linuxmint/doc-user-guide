@@ -2,7 +2,7 @@
 Edge ISO Images
 ###############
 
-If you cannot boot or install Linux Mint because your hardware is too recent and is not properly detected look for an "Edge" ISO image.
+If you cannot boot or install Linux Mint because your hardware is too recent and is not properly detected, you may get better results with the "Edge" ISO image.
 
 In addition to its regular ISO images, Linux Mint sometimes provides an "edge" ISO image for its latest release. This image ships with newer components to be able to support the most modern hardware chipsets and devices.
 
