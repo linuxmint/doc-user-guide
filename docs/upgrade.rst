@@ -19,15 +19,13 @@ Each major Linux Mint release is supported for 5 years.
 +-----------------------+-----------------+
 | Version               | Supported until |
 +=======================+=================+
-| 17, 17.1, 17.2, 17.3  | April 2019      |
-+-----------------------+-----------------+
-| 18, 18.1, 18.2, 18.3  | April 2021      |
-+-----------------------+-----------------+
 | 19, 19.1, 19.2, 19.3  | April 2023      |
 +-----------------------+-----------------+
 | 20, 20.1, 20.2, 20.3  | April 2025      |
 +-----------------------+-----------------+
 | 21, 21.1, 21.2, 21.3  | April 2027      |
++-----------------------+-----------------+
+| 22, 22.1, 22.2, 22.3  | April 2029      |
 +-----------------------+-----------------+
 
 Upgrade Paths
@@ -76,8 +74,10 @@ The table below shows the upgrade paths between the various Linux Mint releases.
 +--------------+            +                  |                                                                               |
 | 21.2         |            |                  |                                                                               |
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
+| 21.3         | 22         + Major            | https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-22.html |
++--------------+------------+------------------+-------------------------------------------------------------------------------+
 
-.. note:: There are no other upgrade paths than the ones listed above. For instance, you cannot upgrade version 19 to version 20.3 directly, you first need to upgrade it to 19.3, then to 20, then to 20.3.
+.. note:: There are no other upgrade paths than the ones listed above. For instance, you cannot upgrade version 21 to version 22 directly, you first need to upgrade it to 21.3, then to 22.
 
 Types of upgrade
 ================
