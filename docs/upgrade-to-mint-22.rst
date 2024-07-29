@@ -58,11 +58,11 @@ Notes
 
 During the upgrade the font rendering will break and your fonts will become unreadable. The upgrade tool is protected against this issue and is not impacted. Do not interrupt the upgrade. Do not close the terminal attached to it. Ignore the issue until the upgrade is finished. For more information on this issue read `Unreadable fonts during the upgrade <https://github.com/linuxmint/mintupgrade/issues/84>`_.
 
-The upgrade overwrites files in `/etc/` with default configuration files. You can restore files indivually by the Timeshift snapshot you made prior to upgrading.
+The upgrade overwrites files in `/etc/` with default configuration files. You can restore files individually by the Timeshift snapshot you made prior to upgrading.
 
 Alternatives
 ============
 
-If you cannot upgrade perform a `fresh installation <https://linuxmint-installation-guide.readthedocs.io/en/latest/>`_.
+If you cannot upgrade, then perform a `fresh installation <https://linuxmint-installation-guide.readthedocs.io/en/latest/>`_.
 
 Generic instructions on `fresh upgrades <https://community.linuxmint.com/tutorial/view/2>`_ are also available.
