@@ -53,6 +53,9 @@ If this doesn't work, boot from the live Linux Mint ISO again, and launch `Times
 
 Timeshift is able to scan your drives from the live session and restore your snapshot from there.
 
+In dual boot, if Windows boots first, try to change the boot order in your UEFI firmware. If you are not allowed to change the boot order, try to type the following command in a prompt on Windows :
+```bcdedit /set {bootmgr} path \EFI\ubuntu\shimx64.efi```
+
 Notes
 =====
 
