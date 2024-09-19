@@ -14,7 +14,6 @@ This Guide is not final. Content is being added slowly but surely :)
    :caption: Software
 
    snap
-   chromium
    winiso
 
 .. toctree::
