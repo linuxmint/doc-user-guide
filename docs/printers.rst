@@ -88,7 +88,7 @@ The following brands provide Linux drivers for their printers and scanners in th
 - Samsung
 - Xerox
 
-Look for Linux drivers on your manufacturer's website, download the packages and double-click them to install them with `Gdebi`.
+Look for Linux drivers on your manufacturer's website, download the packages and double-click them to install them with `Gdebi` (22 and older) or `Captain` (22.1 and newer).
 
 .. hint::
 
