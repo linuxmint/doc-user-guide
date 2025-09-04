@@ -76,7 +76,9 @@ The table below shows the upgrade paths between the various Linux Mint releases.
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
 | 21.3         | 22         + Major            | https://linuxmint-user-guide.readthedocs.io/en/latest/upgrade-to-mint-22.html |
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
-| 22           | 22.1       | Minor            | https://blog.linuxmint.com/?p=4797                                            |
+| 22           | 22.2       | Minor            | https://blog.linuxmint.com/?p=4882                                            |
++--------------+            +                  |                                                                               |
+| 22.1         |            |                  |                                                                               |
 +--------------+------------+------------------+-------------------------------------------------------------------------------+
 
 .. note:: There are no other upgrade paths than the ones listed above. For instance, you cannot upgrade version 21 to version 22 directly, you first need to upgrade it to 21.3, then to 22.
