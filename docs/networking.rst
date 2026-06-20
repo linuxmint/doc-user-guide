@@ -29,11 +29,11 @@ Warpinator
 
 `Warpinator <https://github.com/linuxmint/warpinator>` is a built in program that allows you to send files to other Windows and Linux computers, and Android devices across your local network.
 
-When you first start up Warpinator, It will ask you to set up a unique group code. This allows you to enable Secure Mode. This mode disables startup during login, all transfers of files need to be approved by the sender and receiver, and the program closes after one hour. Turning on secure mode is advised as anyone who is able to connect to your local network will be able to send you potentially malicious files without secure mode enabled, as was proven with Leap.A worm for Mac.
+When you first start up Warpinator, It will ask you to set up a unique group code. This allows you to enable Secure Mode. This mode disables startup during login, makes it so that all transfers of files need to be approved by the sender and receiver, and the program closes after one hour. Turning on secure mode is advised as anyone who is able to connect to your local network will be able to send you potentially malicious files without secure mode enabled, as was proven with Leap.A worm for Mac.
 
 .. note::
 
-    A local network is all of the devices linked to your router. 
+    A local network is all of the devices linked to your Wi-Fi router. 
     Sometimes, if there are different bands that a Wi-Fi router puts out, like 2.4 and 5 ghz, devices that are on one band might not show up on the other.
     Simply connecting your computer to the same band often alivates this problem.
 
