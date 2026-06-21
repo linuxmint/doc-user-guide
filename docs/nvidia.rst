@@ -9,9 +9,9 @@ Open up the *System Reports* program and navigate to System Information, Your gr
 
 .. image:: images/sysinfo.png
 
-Alternatively, you can put ``LANG=C inxi -Fxxxrzc0 --usb`` into the *Terminal* program and scroll until you reach the "Graphics" section. There should be something in the ``driver:`` and something in the place of ``llvmpipe`` in ``renderer:``
+Alternatively, you can put ``LANG=C inxi -Gxxxc0`` into the *Terminal* program. There should be something in the ``driver:`` and something in the place of ``llvmpipe`` in ``renderer:``
 
-If this is not the case, follow what is below.
+If this is not the case for both, follow what is below.
 
 AMD and Intel Cards
 ===================
