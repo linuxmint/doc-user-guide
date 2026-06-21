@@ -74,7 +74,7 @@ If you do not have internet, plug the USB (or DVD) you used to install Mint on i
 
 .. image:: images/mintdrivers-2.webp
 
-After you install the driver this, **Do not** reboot yet, Open up terminal and run the following,
+After you install the driver, **Do not** reboot yet, Open up terminal and run the following,
 
 .. code-block:: bash
 
