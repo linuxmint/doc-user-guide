@@ -30,6 +30,7 @@ This Guide is not final. Content is being added slowly but surely :)
    :caption: Drivers
 
    printers
+   wificard
 
 .. toctree::
    :maxdepth: 1
