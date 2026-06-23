@@ -1,5 +1,5 @@
 ###################################
-Auto-mounting non-system drives
+Auto-Mounting Non-System Drives
 ###################################
 
 You can automatically mount additional drives that aren't the Root (or /) drive.
