@@ -2,7 +2,7 @@
 Auto-Mounting Non-System Drives
 ###################################
 
-You can automatically mount additional drives that aren't the Root (or /) drive.
+You can automatically mount additional drives that isn't the root (or /) drive.
 
 Disk application
 ================
@@ -13,7 +13,7 @@ You will have a lust of drives that are there for you to choose from. Choose the
 
 Nextly, left-click the partition that you want to mount, usually your largest partition. Click the settings button to pull up "Edit Mount Options".
 
-:: note:
+.. note::
 
 	Windows uses a completely different file system to Linux Mint. Although there is compatibility for ExFAT, It is better for newly bought drives to be put to the EXT4 file system.
 
