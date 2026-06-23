@@ -24,6 +24,7 @@ This Guide is not final. Content is being added slowly but surely :)
    grub
    bluetooth
    lost-password
+   automount
 
 .. toctree::
    :maxdepth: 1
