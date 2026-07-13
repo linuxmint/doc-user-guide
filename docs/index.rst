@@ -1,8 +1,8 @@
 Linux Mint User Guide
 =====================
 
-.. figure:: images/qr.png
-      :width: 100px
+.. figure:: images/qr.webp
+      :width: 150px
       :align: right
 
 This is the Linux Mint User Guide.
