@@ -7,11 +7,11 @@ You can automatically mount additional drives that isn't the root (or /) drive.
 Disk application
 ================
 
-Firstly, open up the *disks* program from your start menu.
+Firstly, open up the *Disks* program from your start menu.
 
-You will have a lust of drives that are there for you to choose from. Choose the one that you want to automount.
+You will have a list of drives that are there for you to choose from. Choose the one that you want to auto-mount.
 
-Nextly, left-click the partition that you want to mount, usually your largest partition. Click the settings button to pull up "Edit Mount Options".
+Next, left-click the partition that you want to mount, usually your largest partition. Click the settings button to pull up "Edit Mount Options".
 
 .. note::
 
@@ -20,8 +20,9 @@ Nextly, left-click the partition that you want to mount, usually your largest pa
 In the Mount Options dialog that opens, you will see the option "User Session Defaults" is usually turned on. Turn it off to manually configure mount options.
 
 You’ll now see more options like:
-Mount at system startup: Make sure this is enabled to auto-mount at boot.
-Show in user interface: This will allow the partition to appear in the file manager.
+
+* Mount at system startup: Make sure this is enabled to auto-mount at boot.
+* Show in user interface: This will allow the partition to appear in the file manager.
 
 Make sure to enable both for auto-mounting to work properly.
 
