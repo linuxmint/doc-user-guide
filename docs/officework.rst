@@ -30,7 +30,7 @@ Coding
 
 `Rider <https://www.jetbrains.com/rider/>`_, .net support, Visual Studio Alternative
 
-Qtcreator, A cross-platform IDE for C++, Python, and QML, with Qt framework for  **Available on the Software Manager**
+Qtcreator, A cross-platform IDE for C++, Python, and QML, with Qt framework for UI design. **Available on the Software Manager**
 
 Graphics
 ================
