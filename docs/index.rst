@@ -39,3 +39,9 @@ This Guide is not final. Content is being added slowly but surely :)
    upgrade-to-mint-20
    upgrade-to-mint-21
    upgrade-to-mint-22
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Basic Troubleshooting
+
+   troubleshooting/kernel
