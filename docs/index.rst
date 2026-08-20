@@ -45,3 +45,4 @@ This Guide is not final. Content is being added slowly but surely :)
    :caption: Basic Troubleshooting
 
    troubleshooting/kernel
+   troubleshooting/audiovis
