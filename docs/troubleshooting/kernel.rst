@@ -26,7 +26,7 @@ Deactivate and delete the latest installed kernel.
 "I have VirtualBox installed"
 ==============================
 
-***It doesn't like updates to the kernel.***
+**It doesn't like updates to the kernel.**
 
 You have to uninstall VirtualBox for any updates to the kernel to install properly, especially if it's a new version, like 7.0.0.
 
