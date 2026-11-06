@@ -16,26 +16,26 @@ Its one of the first things that Systemd starts after the kernel loads. It reads
 Changing the Boot Screen
 =========================
 
-Firstly, You first open the `Files` app, and go to `/usr/share/plymouth/themes`
+Firstly, You first open the `Files` app, and go to "`/usr/share/plymouth/themes`".
 
-*If you have a custom theme you want to add*, Right click and select "Open as Root".
+**If you have a custom theme you want to add**, Right click and select "Open as Root".
 
 Then, Drag in your chosen folder with your boot screen image files and accompanying `.plymouth` file
 
 .. note::
 
-    If it is an animated boot screen, Make sure there that the two-step module is enabled with `ModuleName=two-step` in the .plymouth file, Additionally adding the proper [two-step] section as shown `here <https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/plymouth>`_ . You may have to fiddle with settings in the [two-step] category to get it to render properly.
+    If it is an animated boot screen, Make sure that is properly set up in the .plymouth file, More information about animation can be found `here <https://wiki.gentoo.org/wiki/User:DerpDays/Plymouth/Theming>`_.
 
-*Once you're done that or if you want to choose a theme that's already there*,
+**Once you're done that or if you want to choose a theme that's already there**, You want to make sure that Plymouth knows that your boot screen is an option with the following command inside of the `Terminal` application:
 
-Next, you want to make sure that Plymouth knows that your boot screen is an option with the following command inside of the `Terminal` application:
+.. code-block:: bash
 
-`sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth \ /usr/share/plymouth/themes/(NAME HERE)/(NAME HERE).plymouth 100`
+    sudo update-alternatives --install /usr/share/plymouth/themes/default.plymouth default.plymouth \ /usr/share/plymouth/themes/(NAME HERE)/(NAME HERE).plymouth 100
 
-Second to last, Run `sudo update-alternatives --config default.plymouth` and a list of multiple selections will appear, input the number corresponding to the theme you created.
+Second to last, Run "`sudo update-alternatives \-\-config default.plymouth`" and a list of multiple selections will appear, input the number corresponding to the theme you created.
 
 .. image:: images/plymouth_select.png
 
-Lastly, run `sudo update-initramfs -u` in order to rebuild and load the new settings onto memory.
+Lastly, run "`sudo update-initramfs -u`" in order to rebuild and load the new settings onto memory.
 
 Whenever you reboot, It will enact your changes.
