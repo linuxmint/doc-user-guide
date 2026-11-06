@@ -64,6 +64,7 @@ Software updates aren't as important. They bring bug fixes or improvements which
 
     In Linux Mint, kernel updates bring both security patches and bug fixes (and sometimes even new features), and they impact critical parts of the operating system. This makes kernel updates important from a security point of view, but also prone to regressions which can be hard to fix for novice users.
 
+.. _kernal-updates:
 
 Kernel updates
 ==============
