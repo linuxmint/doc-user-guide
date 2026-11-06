@@ -4,14 +4,14 @@ Splash Screen
 
 When you boot up your system and get past the UEFI/BIOS "Manufacturer" Screen, You should be greeted by a spinning logo of Linux Mint. 
 
-This is the Plymouth Splash Screen program, Its job is to make the process of booting look nice when compared to walls of text.
+This is Plymouth. Its job is to make the process of booting look nice when compared to walls of text that comprise of the boot logs.
 
 By pressing `Esc`, You are able to see the text output of the boot processes.
 
 How it works
 =============
 
-Its one of the first things that Systemd starts after the kernel starts. It reads from `/usr/share/plymouth/themes/default.plymouth` and loads in the respective image files in order to show the splash screen. It also follows all instructions set out in 
+Its one of the first things that Systemd starts after the kernel loads. It reads from `/usr/share/plymouth/themes/default.plymouth` and loads in the respective image files in order to show the splash screen. 
 
 Changing the Boot Screen
 =========================
