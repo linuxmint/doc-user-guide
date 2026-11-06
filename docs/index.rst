@@ -24,6 +24,7 @@ This Guide is not final. Content is being added slowly but surely :)
    grub
    bluetooth
    lost-password
+   plymouth
 
 .. toctree::
    :maxdepth: 1
